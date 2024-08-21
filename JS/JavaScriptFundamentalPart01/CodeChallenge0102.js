@@ -1,3 +1,5 @@
+// Code Challenge 01
+
 let massMark = 78
 let heightMark = 1.69
 let massJohn = 92
@@ -12,6 +14,8 @@ console.log(bmiMark)
 console.log(bmiJohn)
 console.log(markHigherBMI)
 
+// Code Challenge 02
+
 if(markHigherBMI) 
     console.log('Mark BMI is higher than John!')
 else 
@@ -19,9 +23,9 @@ else
 
 
 if(markHigherBMI) 
-    console.log(`Mark BMI(${bmiMark}) is higher than John(${bmiJohn})!`)
+    console.log(`Mark BMI(${bmiMark.toFixed(1)}) is higher than John(${bmiJohn.toFixed(1)})!`)
 else 
-    console.log(`John BMI(${bmiMark}) is higher than Mark(${bmiJohn})!`)
+    console.log(`John BMI(${bmiJohn.toFixed(1)}) is higher than Mark(${bmiMark.toFixed(1)})!`)
 
 
 
